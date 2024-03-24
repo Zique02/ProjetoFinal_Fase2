@@ -5,7 +5,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: #25983813;
+  background-color: rgba(37, 152, 56, 0.13);
   width: 100%;
   height: 100vh;
 }
@@ -208,27 +208,20 @@ nav .menu-user:hover + .sub-menu-user div p {
   height: 34.1px;
 }
 
+/* Rodapé do site */
 
-/* Barra de Pesquisa */
 
-.search-box{
-    background-color: white;
-    height: 40px;
-    padding: 10px;
-    border-radius: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: #259838 1px solid;
-    box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.589);
-   
+.footer {
+  background-color: #BBC7CE;
+  padding: 20px 0;
+  text-align: center;
 }
 
-.search-text{
-    background: none;
-    border: 0;
-    outline: 0;
-    padding: 0;
-    font-size: 16px;
-    
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #325838;
+  text-decoration: none;
 }

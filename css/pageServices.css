@@ -1,0 +1,252 @@
+/* Slider */
+
+.container-fluid {
+  margin-top: 75px;
+  padding: 0;
+}
+
+#mainSlider .carousel-caption {
+  top: 1%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+#mainSlider .carousel-caption p {
+  font-weight: 300;
+  margin-bottom: 8px;
+  color: #eeeeeead;
+}
+.carousel-item:nth-child(1) .carousel-caption {
+  text-align: start; 
+  margin-right: 40vw;
+  margin-left: -10%;
+}
+.carousel-item:nth-child(1) .carousel-caption p {
+  text-align: start;
+}
+
+h2 span {
+  color: #259838;
+  text-decoration: underline;
+}
+
+.carousel-item:nth-child(2) .carousel-caption {
+  text-align: end;
+  margin-left: 40vw;
+  margin-right: -10%;
+}
+.carousel-item:nth-child(2) .carousel-caption p {
+  text-align: end;
+}
+
+.main-btn-1 {
+  font-size: 20px;
+  background-color: #259838;
+  color: white;
+  width: 200px;
+  height: 20px;
+  padding: 15px 35px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-left: 10%;
+}
+
+.main-btn-2 {
+  font-size: 20px;
+  background-color: #259838;
+  color: white;
+  width: 200px;
+  height: 20px;
+  padding: 15px 35px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-left: 10%;
+}
+
+.main-btn-1:hover,
+.main-btn-2:hover {
+  background-color: #325838;
+  box-shadow: 1px 5px 4px inset rgba(0, 0, 0, 0.589);
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.589);
+}
+
+.carousel-indicators .active {
+  background-color: #259838;
+}
+.carousel-indicators {
+  list-style: none;
+}
+
+.carousel-item {
+  height: 80vh; 
+}
+
+.carousel-item img {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px; 
+  height: 40px; 
+  font-size: 1.5rem;
+  top: 50%; 
+}
+
+/* Formulário de Agendamento de Serviços */
+
+#form-services {
+  margin-top: 350px;
+  max-width: 950px;
+  position: relative;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 27px;
+  padding: 20px 50px 15px 50px;
+
+  box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.589);
+}
+
+.form-title {
+  font-size: 2.3em;
+  font-weight: bolder;
+  margin-bottom: 2%;
+  color: #259838;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.form-right,
+.form-left {
+  padding: 15px;
+  border-radius: 13px;
+  width: 600px;
+}
+
+.form-right {
+  border: #259838 solid 1px;
+}
+
+.form-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  background-color: #259838;
+  border-radius: 50px;
+  margin-left: 15px;
+  padding: 2px 5px;
+  color: white;
+  border: solid 1px #259838;
+}
+
+.services {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  padding: 0px 8px;
+}
+
+/* Configurando inputs */
+
+.input,
+.input-date {
+  min-width: 100px;
+  border-radius: 13px;
+  border: 1px solid #259838;
+  padding: 10px 20px;
+  margin: 0px 0px 12px -5px;
+  box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.589);
+}
+
+.input-date{
+  margin: 0px 0px 12px -2px;
+}
+
+.input input,
+.input-date input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-size: 12pt;
+}
+
+select {
+  width: 100%;
+  border: #259838 1px solid;
+  border-radius: 13px;
+  padding: 12px 27px;
+  font-size: 12pt;
+  box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.589);
+}
+
+select:focus {
+  border: 1px solid #259838;
+}
+
+.input-checkbox{
+  border: 1px solid #259838;
+  border-radius: 13px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+
+}
+
+.input-check {
+  border-top: 1px solid black;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  padding: 0px 8px;
+}
+
+.input-select {
+  padding-bottom: 15px;
+}
+
+#total-price{
+  display: flex;
+  justify-content: space-between;
+}
+
+#total-price p{
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+}
+/* Botao de Agendar */
+.form-btn {
+  margin-top: -3%;
+  width: 100%;
+  text-align: center;
+}
+
+.form-btn button {
+  font-family: "Inter", sans-serif;
+  background-color: #259838;
+  width: 100%;
+  height: 60px;
+  border: none;
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: white;
+  border-radius: 13px;
+  outline: none;
+  box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.589);
+}
+
+.form-btn button:hover {
+  background-color: #325838;
+  box-shadow: 1px 5px 4px inset rgba(0, 0, 0, 0.589);
+  text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.589);
+}

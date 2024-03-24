@@ -1,45 +1,16 @@
-/* links do cabeçalho */
-.navbar-nav {
-  padding-right: 38px;
-}
-
-.nav-item {
-  padding: 12px;
-  border-radius: 30px;
-  border-style: solid;
-  border-width: 1.5px;
-}
-.nav-item:hover {
-  background-color: #325838;
-  box-shadow: 1px 5px 4px inset rgba(0, 0, 0, 0.589);
-  text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.589);
-}
-
-/* formulários */
-#form-register{
-  margin-top:360px;
+#form-pet-reg {
+  margin-top:390px;
   max-width: 600px;
-}
-
-#form-login{
-  margin-top:250px;
-  max-width: 600px;
-}
-
-
-#form-register,
-#form-login {
   position: relative;
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: white;
   border-radius: 27px;
-  padding: 20px 90px 5px 90px;
+  padding: 20px 90px 15px 90px;
   width: 45%;
   align-items: center;
   box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.589);
-  
 }
 
 .form-title {
@@ -51,15 +22,24 @@
   text-decoration: underline;
 }
 
-label{
+label {
   background-color: #259838;
   border-radius: 50px;
   margin-left: 15px;
   padding: 2px 5px;
   color: white;
+  border: solid 1px #259838;
 }
 
-.input {
+.animSize {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  padding: 0px 8px;
+}
+
+.input,
+.input-radio {
   min-width: 100px;
   border-radius: 13px;
   border: 1px solid #259838;
@@ -75,6 +55,19 @@ label{
   font-family: "Inter", sans-serif;
   font-size: 15pt;
 }
+
+select {
+  width: 100%;
+  border: white solid;
+  font-size: 15pt;
+  
+}
+
+select:focus{
+    border: 5px solid white;
+}
+
+
 
 .form-btn {
   margin-top: 8%;
@@ -96,21 +89,8 @@ label{
   box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.589);
 }
 
-.form-btn button:hover{
+.form-btn button:hover {
   background-color: #325838;
   box-shadow: 1px 5px 4px inset rgba(0, 0, 0, 0.589);
   text-shadow: 1px 5px 4px rgba(0, 0, 0, 0.589);
-}
-
-.link-pergunta{
-  text-align: center;
-  margin-top: 3%;
-}
-
-.link-pergunta p{
-  color: #36363673;
-}
-
-.link-pergunta p a{
-  color: #259838;
 }

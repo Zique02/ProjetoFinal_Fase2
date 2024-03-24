@@ -1,0 +1,32 @@
+.row {
+  margin-top: 90px;
+  width: 100%;
+  
+}
+
+.card-title {
+  text-align: center;
+  background-color: #259838;
+  width: 100%;
+  color: white;
+  
+}
+
+.card-products,
+.card-services {
+  width: 45%; /* Define uma largura de 45% para os cards */
+  min-width: 300px; /* Define uma largura mínima para os cards */
+  height: calc(82vh - 20px); /* Define a altura como 82% da altura da viewport menos o espaço reservado para o footer */
+  margin: 0 auto 20px auto; /* Adiciona margem em cima e embaixo e centraliza horizontalmente */
+  overflow: hidden; /* Oculta qualquer conteúdo que exceda as dimensões da div */
+  box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.589);
+  border-radius: 30px;
+}
+
+.card-products img,
+.card-services img {
+  width: 100%; /* Garante que a imagem ocupe toda a largura da div */
+  height: 100%; /* Garante que a imagem ocupe toda a altura da div */
+  object-fit: cover; /* Corta a imagem para preencher a div mantendo sua proporção */
+}
+
