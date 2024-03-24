@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
   if (window.matchMedia("(min-width: 768px)").matches) {
-    let  = new bootstrap.Carousel(multipleCardCarousel, {
+    let = new bootstrap.Carousel(multipleCardCarousel, {
       interval: false, // Disable automatic sliding
       wrap: false, // Prevent wrapping at the end
     });

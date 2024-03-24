@@ -109,7 +109,7 @@
               </li>
             </div>
             <div class="menu-user">
-              <p class="user-name">seu nome</p>
+              <p class="user-name">Username</p>
 
               <img src="img/Usuario.svg" alt="Botão de Usuario" id="img-user" />
             </div>
@@ -128,6 +128,7 @@
       </div>
     </header>
     <main>
+      <!-- Carrossel apresentando os serviços -->
       <div class="container-fluid">
         <div id="mainSlider" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -139,6 +140,7 @@
             <li data-bs-target="#mainSlider" data-bs-slide-to="1"></li>
           </ol>
           <div class="carousel-inner">
+            <!-- Slide relacionado a Banho para o pet -->
             <div class="carousel-item active">
               <img src="img/fotos/banho.png" class="d-block w-100" />
               <div class="carousel-caption d-none d-md-block">
@@ -167,6 +169,7 @@
                 </p>
               </div>
             </div>
+            <!-- Slide relacionado a Tosa para o pet -->
             <div class="carousel-item">
               <img src="img/fotos/tosa.png" class="d-block w-100" />
               <div class="carousel-caption d-none d-md-block">
@@ -188,7 +191,7 @@
                   >Agendar</a
                 >
                 <span style="color: #259838; font-size: 30px; font-weight: 900"
-                  >R$70,00</span
+                  >R$90,00</span
                 >
 
                 <p style="margin-top: 4%">
@@ -197,6 +200,7 @@
               </div>
             </div>
           </div>
+          <!-- Botoes dos sliders -->
           <a
             href="#mainSlider"
             class="carousel-control-prev"
@@ -214,11 +218,12 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </a>
         </div>
+        <!-- Formulario de agendamento de serviços -->
         <span id="inicioFormulario" />
       </div>
 
       <div id="form-services">
-        <form action="">
+        <form action="main.html">
           <h2 class="form-title">Agendar Serviço!</h2>
           <div class="form-box">
             <div class="form-left">
@@ -370,7 +375,7 @@
         </div>
       </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         initCarousel(); // Chama a função para iniciar o carrossel
