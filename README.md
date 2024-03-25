@@ -25,7 +25,7 @@ Ao abrir o site, o usuário será redirecionado a página de Registro, infelizme
 
 -Na página de Produtos: Possui 2 carrosseis, um para ração seca e outro para ração úmida, os carrosseis são completamente funcionais
 
--Na página de Serviços: Possui um carrossel com 2 imagens mostrando os serviços de tosa e banho, dependendo do botão 'Agendar' que o usuário clicar, vai ser levado ao formulário no fim da página com o a caixa da escolha feita pelo usuário marcada, o usuário pode marcar as duas opções caso queira agendar um banho e tosa para seu pet.
+-Na página de Serviços: Possui um carrossel com 2 imagens mostrando os serviços de tosa e banho, dependendo do botão 'Agendar' que o usuário clicar, vai ser levado ao formulário no fim da página com o a caixa da escolha feita pelo usuário marcada, o usuário pode marcar as duas opções caso queira agendar um banho e tosa para seu pet, apos completar o agendamento o usuário será levado à pagina inicial
 
 Todas as páginas possuem um footer, os links não levam a lugar algum
 
